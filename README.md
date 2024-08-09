@@ -1,6 +1,6 @@
 # Laboratório Solares
 
-Este repositório contém a documentação do Laboratório Solares. O site está hospedado no GitHub Pages e pode ser acessado em [link do site].
+Este repositório contém a documentação do Laboratório Solares UERJ. O site está hospedado no GitHub Pages e pode ser acessado em [link do site].
 
 ## Descrição e Objetivo
 
