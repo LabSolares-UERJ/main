@@ -13,11 +13,11 @@
     <div class="container">
         <aside>
             <ul>
-                <li class="{% if page.url == '/teste_labSolares/' %}active{% endif %}"><a href="/teste_labSolares/">Home page</a></li>
-                <li class="{% if page.url == '/teste_labSolares/documentation/installation/' %}active{% endif %}"><a href="/teste_labSolares/documentation/installation/">Installation and Usage</a></li>
-                <li class="{% if page.url == '/teste_labSolares/documentation/examples/' %}active{% endif %}"><a href="/teste_labSolares/documentation/examples/">Examples</a></li>
-                <li class="{% if page.url == '/teste_labSolares/documentation/api_reference/' %}active{% endif %}"><a href="/teste_labSolares/documentation/api_reference/">API reference</a></li>
-                <li class="{% if page.url == '/teste_labSolares/documentation/cli_reference/' %}active{% endif %}"><a href="/teste_labSolares/documentation/cli_reference/">CLI reference</a></li>
+                <li class="{% if page.url == '/siteLabSolares-UERJ/' %}active{% endif %}"><a href="/teste_labSolares/">Home page</a></li>
+                <li class="{% if page.url == '/siteLabSolares-UERJ/documentation/installation/' %}active{% endif %}"><a href="/siteLabSolares-UERJ/documentation/installation/">Installation and Usage</a></li>
+                <li class="{% if page.url == '/siteLabSolares-UERJ/documentation/examples/' %}active{% endif %}"><a href="/siteLabSolares-UERJ/documentation/examples/">Examples</a></li>
+                <li class="{% if page.url == '/siteLabSolares-UERJ/documentation/api_reference/' %}active{% endif %}"><a href="/siteLabSolares-UERJ/documentation/api_reference/">API reference</a></li>
+                <li class="{% if page.url == '/siteLabSolares-UERJ/documentation/cli_reference/' %}active{% endif %}"><a href="/siteLabSolares-UERJ/documentation/cli_reference/">CLI reference</a></li>
             </ul>
         </aside>
         <main>
@@ -31,11 +31,11 @@
     function setActiveLink() {
         var path = window.location.pathname;
         var links = {
-            '/teste_labSolares/': 'home-link',
-            '/teste_labSolares/documentation/installation/': 'installation-link',
-            '/teste_labSolares/documentation/examples/': 'examples-link',
-            '/teste_labSolares/documentation/api_reference/': 'api-link',
-            '/teste_labSolares/documentation/cli_reference/': 'cli-link'
+            '/siteLabSolares-UERJ/': 'home-link',
+            '/siteLabSolares-UERJ/documentation/installation/': 'installation-link',
+            '/siteLabSolares-UERJ/documentation/examples/': 'examples-link',
+            '/siteLabSolares-UERJ/documentation/api_reference/': 'api-link',
+            '/siteLabSolares-UERJ/documentation/cli_reference/': 'cli-link'
         };
 
         if (links[path]) {
