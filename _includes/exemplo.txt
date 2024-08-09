@@ -1,0 +1,14 @@
+
+Por sua vez, a Figura 8 apresenta para os PEEs NE-PE, NE-L e NE-I, Sul-L e Sul-I, os diagramas de dispersão das curvas de potência probabilísticas mensais, agora considerando a combinação das 5 curvas de potência probabilísticas mensais em uma única curva e, a partir desta, o ajuste de um único modelo de 
+regressão linear simples, i.e, obtendo uma única FTM para cada PEE, considerando todos os anos de dados das curvas de potência (2019 a 2023) do Sintegre.
+
+Neste caso, os coeficientes de determinação obtidos foram iguais 97%, 89%, 98%, 93% e 95%, para os PEEs NE-PE , NE-L e NE-I, Sul-L e Sul-I, respectivamente. Esses coeficientes de determinação são ligeiramente inferiores aos respectivos valores condicionais; não obstante, eles representam estimativas muito boas
+para as FTMs dos REEs considerados. 
+
+O único R2 inferior a 90 % (i.e., igual a 89%, o que ainda representa um bom ajuste) ocorreu para o REE NE_L. Entretanto deve-se observar que a SE agregadora associada a este REE experimentou, no período de 2019 a 2023, uma ampliação de capacidade dos parques eólicos a ela conectados. Por esta razão, e
+conforme discutido na Seção 2, foi realizada uma padronização dos dados das curvas de potência probabilísticas mensais, tomando como valor-base os respectivos valores médios de produção de energia eólica em cada ano de dados considerados do Sintegre.
+
+Esses resultados evidenciam, para os REEs analisados, que é possível capturar as intercorrências associadas à operação real de cada parque eólico (por meio da combinação das 5 curvas de potência probabilísticas mensais em uma única curva e, partir desta, ajustar um único modelo de regressão linear obtendo uma 
+única FTM para o parque eólico, considerando todos os anos de dados associados do Sintegre) sem deteriorar a qualidade do ajuste final das FTMs.
+
+Recomenda-se ainda as FTMs sejam atualizadas a cada ano, à medida que mais dados sejam disponibilizados e incorporados às análises, como por exemplo, as curvas de potência semi-horária do Sintegre. 
