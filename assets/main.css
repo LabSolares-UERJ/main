@@ -34,13 +34,20 @@ nav ul li a {
 }
 
 .container {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    min-width: 800px; /* Definindo uma largura mínima para o contêiner principal */
+}
+
+.index {
     display: block; /* Assegura que o container ocupe todo o espaço horizontal */
     max-width: 800px; /* Limita a largura máxima do texto */
     margin: 0 auto; /* Centraliza o container */
     padding: 20px;
 }
 
-.container p {
+.index p {
     column-count: 1; /* Força o texto a ficar em uma única coluna */
     text-align: justify; /* Justifica o texto para uma aparência melhor */
 }
