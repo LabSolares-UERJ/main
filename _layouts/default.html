@@ -23,12 +23,12 @@
         </aside>
         <main>
             {{ content }}
+            <footer></footer>
+                {% include footer.html %}
+            </footer>
         </main>
     </div>
 </body>
-<footer></footer>
-    {% include footer.html %}
-</footer>
 </html>
 <script>
     // Função para adicionar a classe 'active' ao link atual
