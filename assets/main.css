@@ -111,3 +111,41 @@ footer {
     position: relative;
     width: 100%;
 }
+/* Estilos adicionados para referências bibliográficas */
+.reference {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 4px solid #007acc;
+}
+
+.reference-title {
+    font-weight: bold;
+    color: #007acc;
+}
+
+.reference-author {
+    font-style: italic;
+    color: #555;
+}
+
+.reference-details {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.reference-abstract {
+    color: #333;
+    font-size: 0.95em;
+    background: #f9f9f9;
+    padding: 10px;
+    border-left: 4px solid #007acc;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
