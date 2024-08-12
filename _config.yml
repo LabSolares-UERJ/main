@@ -2,6 +2,6 @@ title: "Laboratório Solares UERJ"
 email: "labSolares.UERJ@gmail.com"
 description: "Documentação do Laboratório Solares"
 baseurl: "" # use "/" if your site is not in a subdirectory
-url: "https://github.com/LabSolares-UERJ/siteLabSolares-UERJ" # your domain name
+url: "https://github.com/LabSolares-UERJ/main" # your domain name
 markdown: kramdown
 theme: minima
