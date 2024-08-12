@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/main/assets/main.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <h2>{{ site.title }}</h1>
+    </header>
+    <div class="container">
+        <aside>
+            <ul>
+                <li class="{% if page.url == '/main/' %}active{% endif %}"><a href="/main/">Home page</a></li>
+                <li class="{% if page.url == '/main/documentation/installation/' %}active{% endif %}"><a href="/main/documentation/installation/">Installation and Usage</a></li>
+                <li class="{% if page.url == '/main/documentation/examples/' %}active{% endif %}"><a href="/main/documentation/examples/">Examples</a></li>
+                <li class="{% if page.url == '/main/documentation/api_reference/' %}active{% endif %}"><a href="/main/documentation/api_reference/">API reference</a></li>
+                <li class="{% if page.url == '/main/documentation/cli_reference/' %}active{% endif %}"><a href="/main/documentation/cli_reference/">CLI reference</a></li>
+            </ul>
+        </aside>
+        <main>
+            {{ content }}
+        </main>
+    </div>
+</body>
+</html>
+<script>
+    // Função para adicionar a classe 'active' ao link atual
+    function setActiveLink() {
+        var path = window.location.pathname;
+        var links = {
+            '/main/': 'home-link',
+            '/main/documentation/installation/': 'installation-link',
+            '/main/documentation/examples/': 'examples-link',
+            '/main/documentation/api_reference/': 'api-link',
+            '/main/documentation/cli_reference/': 'cli-link'
+        };
 
+        if (links[path]) {
+            document.getElementById(links[path]).classList.add('active');
+        }
+    }
+
+    // Chama a função para definir o link ativo ao carregar a página
+    document.addEventListener('DOMContentLoaded', setActiveLink);
+</script>
