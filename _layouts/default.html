@@ -15,16 +15,14 @@
             <img src="/main/SOLARES.jpg" alt="SOLARES Logo" style="width:100%; height:auto; margin-bottom:15px;">
             <ul>
                 <li class="{% if page.url == '/main/' %}active{% endif %}"><a href="/main/">Home page</a></li>
-                <li class="{% if page.url == '/main/documentation/installation/' %}active{% endif %}"><a href="/main/documentation/installation/">Installation and Usage</a></li>
                 <li class="{% if page.url == '/main/documentation/examples/' %}active{% endif %}"><a href="/main/documentation/examples/">Examples</a></li>
-                <li class="{% if page.url == '/main/documentation/api_reference/' %}active{% endif %}"><a href="/main/documentation/api_reference/">API reference</a></li>
                 <li class="{% if page.url == '/main/documentation/references/' %}active{% endif %}"><a href="/main/documentation/references/">Referências Bibliográficas</a></li>
             </ul>
         </aside>
         <main>
             {{ content }}
             <footer>
-                {% include footer.html %}
+                {% footer.html %}
             </footer>
         </main>
     </div>
