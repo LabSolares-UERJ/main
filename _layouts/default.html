@@ -30,17 +30,13 @@
     // Função para adicionar a classe 'active' ao link atual
     function setActiveLink() {
         var path = window.location.pathname;
-        var links = {
-            '/main/': 'home-link',
-            '/main/documentation/installation/': 'installation-link',
-            '/main/documentation/examples/': 'examples-link',
-            '/main/documentation/api_reference/': 'api-link',
-            '/main/documentation/cli_reference/': 'cli-link'
-        };
+        var navItems = document.querySelectorAll('aside ul li a');
 
-        if (links[path]) {
-            document.getElementById(links[path]).classList.add('active');
-        }
+        navItems.forEach(function(navItem) {
+            if (navItem.getAttribute('href') === path) {
+                navItem.classList.add('active');
+            }
+        });
     }
 
     // Chama a função para definir o link ativo ao carregar a página
