@@ -1,1 +1,113 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
 
+header {
+    background-color: #000080;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    min-width: 800px; /* Definindo uma largura mínima para o contêiner principal */
+}
+
+.index {
+    display: block; /* Assegura que o container ocupe todo o espaço horizontal */
+    max-width: 800px; /* Limita a largura máxima do texto */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 20px;
+}
+
+.index p {
+    column-count: 1; /* Força o texto a ficar em uma única coluna */
+    text-align: justify; /* Justifica o texto para uma aparência melhor */
+}
+
+aside {
+    width: 200px;
+    flex-shrink: 0;
+    background-color: #f4f4f4;
+    padding: 1em;
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    display: block;
+}
+
+aside ul li a.active {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+main {
+    flex-grow: 1;
+    padding: 1em;
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow: auto;
+    width: 100%; /* Ajusta a largura para 100% do contêiner pai */
+    box-sizing: border-box; /* Inclui o padding e border na largura total */
+    white-space: pre-wrap; /* Permite a quebra automática de linha */
+    font-size: 13px; /* Aumenta o tamanho da fonte */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+}
