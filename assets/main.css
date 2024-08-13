@@ -13,6 +13,11 @@ header {
     padding: 1em 0;
     text-align: center;
     font-size: 1.5em;
+    position: fixed; /* Fixar o header no topo */
+    top: 0; /* Alinha o header no topo */
+    left: 0;
+    width: 100%; /* Garante que o header ocupe toda a largura da página */
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
 }
 
 nav ul {
