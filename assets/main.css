@@ -90,6 +90,8 @@ aside ul li a.active {
 main {
     flex-grow: 1;
     padding: 1em;
+    margin-left: 320px; /* Compensa a largura da barra lateral */
+    margin-top: 80px; /* Compensa a altura do header */
 }
 
 main img {
