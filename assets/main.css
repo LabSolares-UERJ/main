@@ -45,6 +45,14 @@ nav ul li a {
     min-width: 800px; /* Definindo uma largura mínima para o contêiner principal */
 }
 
+.container_2 {
+    display: flex;
+    flex-direction: column; /* Alinha os itens em uma coluna vertical */
+    flex-grow: 1;
+    padding: 20px;
+    min-width: 800px; /* Definindo uma largura mínima para o contêiner principal */
+}
+
 .index {
     display: block; /* Assegura que o container ocupe todo o espaço horizontal */
     max-width: 800px; /* Limita a largura máxima do texto */
