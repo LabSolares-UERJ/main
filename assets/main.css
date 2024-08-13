@@ -128,7 +128,7 @@ footer {
 /* Estilos adicionados para referências bibliográficas */
 .reference {
     margin-bottom: 20px;
-    padding-left: 15px /* 15px */
+    padding-left: 15px; /* 15px */
     border-left: 2px solid #007acc; /* 4px */
 }
 
