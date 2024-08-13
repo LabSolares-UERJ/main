@@ -41,8 +41,7 @@ nav ul li a {
 .container {
     display: flex;
     flex-grow: 1;
-    padding: 20px; /* padding: 20px */
-    /* padding-left: 60px. Antes: 40px */
+    padding: 20px;
     min-width: 800px; /* Definindo uma largura mínima para o contêiner principal */
 }
 
@@ -128,7 +127,7 @@ footer {
 /* Estilos adicionados para referências bibliográficas */
 .reference {
     margin-bottom: 20px;
-    padding-left: 15px; /* padding-left: 15px */
+    padding-left: 15px;
     border-left: 2px solid #007acc; /* 4px */
 }
 
@@ -151,7 +150,6 @@ footer {
     font-size: 0.95em;
     background: #f9f9f9;
     padding: 10px;
-    /* border-left: 2px solid #007acc; Antes: 4px */
 }
 
 a {
