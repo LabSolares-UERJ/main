@@ -62,6 +62,12 @@ aside {
     flex-shrink: 0;
     background-color: #f4f4f4;
     padding: 1em;
+    position: fixed; /* Fixar a barra lateral */
+    top: 70px; /* Distância do topo da página, ajustando para não sobrepor o header */
+    left: 0;
+    height: calc(100% - 70px); /* Ocupa a altura total da tela, menos a altura do header */
+    overflow-y: auto; /* Permite a rolagem do conteúdo da barra lateral se exceder a altura */
+    z-index: 900; /* Garante que o aside fique abaixo do header */
 }
 
 aside ul {
