@@ -160,3 +160,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+ul li a i {
+    margin-right: 8px; /* Adiciona espaço entre o ícone e o texto */
+    color: #007acc; /* Cor dos ícones */
+}
