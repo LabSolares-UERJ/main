@@ -42,7 +42,7 @@ nav ul li a {
     display: flex;
     flex-grow: 1;
     padding: 20px; /* 20px */
-    padding-left: 40px; /* acrescentei */
+    padding-left: 60px; /* acrescentei. Antes: 40px */
     min-width: 800px; /* Definindo uma largura mínima para o contêiner principal */
 }
 
