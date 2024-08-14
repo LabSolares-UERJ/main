@@ -173,3 +173,31 @@ ul li a i {
     margin-right: 8px; /* Adiciona espaço entre o ícone e o texto */
     color: #007acc; /* Cor dos ícones */
 }
+
+.team-member {
+    margin-bottom: 30px; /* Espaço entre os membros da equipe */
+    padding: 15px; /* Espaçamento interno */
+    border-left: 4px solid #007acc; /* Borda colorida à esquerda */
+    background-color: #f9f9f9; /* Fundo claro para destaque */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.team-member h3 {
+    margin-top: 0; /* Remove o espaçamento superior do título */
+    color: #333; /* Cor do título */
+    font-size: 1.5em; /* Tamanho da fonte do título */
+}
+
+.team-member p {
+    margin: 5px 0; /* Margem entre os parágrafos */
+    color: #666; /* Cor do texto */
+}
+
+.team-member a {
+    color: #007acc; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.team-member a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
