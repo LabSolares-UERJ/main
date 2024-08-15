@@ -185,11 +185,11 @@ ul li a i {
 .team-member h3 {
     margin-top: 0; /* Remove o espaçamento superior do título */
     color: #333; /* Cor do título */
-    font-size: 1em; /* Tamanho da fonte do título. Antes: 1.5 */
+    font-size: 1.1em; /* Tamanho da fonte do título. Antes: 1.5 */
 }
 
 .team-member p {
-    margin: 2px 0; /* Margem entre os parágrafos. Antes: 5*/
+    margin: 0px 0; /* Margem entre os parágrafos. Antes: 5*/
     color: #666; /* Cor do texto */
 }
 
