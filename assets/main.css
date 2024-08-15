@@ -10,7 +10,7 @@ body {
 header {
     background-color: #3778bf; /* #000080 */
     color: #fff;
-    padding: 0.2em 0; /* Reduzir o padding vertical. Opção: 0.5 Inicial: 1 */
+    padding: 0.1em 0; /* Reduzir o padding vertical. Opções: 0.2 0.5 Inicial: 1 */
     text-align: center;
     font-size: 1.5em; /* Ajustar o tamanho da fonte para algo mais compacto. Antes: 1.5 1.2 */
     position: fixed; /* Fixar o header no topo */
