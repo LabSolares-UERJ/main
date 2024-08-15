@@ -12,9 +12,6 @@ permalink: /documentation/oLabSolares/
     <link rel="stylesheet" href="{{ '/main/assets/main.css' | relative_url }}">
 </head>
 <body>
-    <header>
-        <h2>Lab Solares</h2>
-    </header>
     <div class="container_2">
         <h3>UERJ – Unidade de Desenvolvimento Tecnológico (UDT)</h3>
         <h4>NOME: LABORATÓRIO DE SIMULAÇÃO E OTIMIZAÇÃO ESTOCÁSTICA APLICADAS A SISTEMAS DE ENERGIA RENOVÁVEL</h4>
@@ -22,26 +19,73 @@ permalink: /documentation/oLabSolares/
         <p><strong>SIGLA:</strong> Lab SOLARES</p>
 
         <h4>OBJETIVO</h4>
-        <p>Desenvolvimento e inovação em metodologias e softwares para aplicação em sistemas de energia renovável considerando a modelagem das incertezas presentes e utilizando ciência de dados, incluindo técnicas probabilísticas, estatísticas, aprendizado estatístico, aprendizado de máquina, inteligência artificial, de simulação e de otimização estocástica.</p>
+        <p>Desenvolvimento e inovação em metodologias e softwares para aplicação em sistemas de energia 
+            renovável, considerando a modelagem das incertezas presentes e utilizando ciência de dados, incluindo
+            técnicas probabilísticas, estatísticas, aprendizado estatístico, aprendizado de máquina, inteligência artificial,
+            análise de risco financeiro, de simulação e de otimização estocástica.</p>
 
         <h4>DESCRIÇÃO</h4>
-        <p>É notória globalmente a preocupação cada vez crescente com o aquecimento global - ou mudanças climáticas - e com os impactos do aumento dos níveis de emissões de gases de efeito estufa (GEE) de origem antropogênica nos sistemas climáticos, culminando com o estabelecimento em 2015 do Acordo de Paris sobre Mudança do Clima. Este Acordo visa limitar o aumento da temperatura média global abaixo de 2°C até 2100, onde cada país participante evidenciou as suas estratégias de mitigação às mudanças climáticas (MC).</p>
+        <p>É notória, globalmente, a preocupação cada vez crescente com o aquecimento global - ou mudanças 
+            climáticas, e com os impactos do aumento dos níveis de emissões de gases de efeito estufa (GEE) de
+            origem antropogênica nos sistemas climáticos, culminando com o estabelecimento, em 2015, do Acordo de
+            Paris. Sobre Mudança do Clima. Este Acordo visa limitar o aumento da temperatura média global abaixo
+            de 2°C até 2100, onde cada país participante evidenciou as suas estratégias de mitigação às MC.</p>
 
-        <p>Em nível mundial, diferentemente do Brasil, o setor energético tem sido um dos principais atores da mudança do clima global, contribuindo com pelo menos 2/3 das emissões de GEE, segundo dados da Agência Internacional de Energia. Logo, pode-se afirmar que o Acordo de Paris é, na sua essência, um acordo sobre energia. Como consequência, espera-se uma transformação disruptiva no sistema energético mundial – a “transição energética” – com a aceleração da descarbonização da economia e a implementação em larga escala de tecnologias limpas eminentemente renováveis, quer existentes ou novas.</p>
+        <p>Em nível mundial, diferentemente do Brasil, o setor energético tem sido um dos principais atores da
+            mudança do clima global, contribuindo com pelo menos 2/3 das emissões de GEE, segundo dados da
+            Agência Internacional de Energia. Logo, pode-se afirmar que o Acordo de Paris é, na sua essência, um
+            acordo sobre energia. Como consequência, espera-se uma transformação disruptiva no sistema energético
+            mundial – a “transição energética”, com a aceleração da descarbonização da economia e a implementação,
+            em larga escala, de tecnologias limpas, eminentemente renováveis, quer existentes ou novas.</p>
 
-        <p>No caso do Brasil, o sistema de geração apresenta uma alta participação de fontes renováveis de energia, incluindo as tecnologias hidroelétricas, biomassa, eólica e solar, respondendo por mais de 85% do consumo de eletricidade do país. Apresenta ainda predominância da hidroeletricidade, caracterizada por grandes reservatórios com capacidade de regularização plurianual, dispostos em cascatas complexas. Por outro lado, as fontes intermitentes têm experimentado um crescimento acelerado: em uma década, por exemplo, a geração eólica cresceu 13 vezes, atingindo 27 GW de capacidade instalada e tornando-se a 2ª fonte na matriz (12%), atrás apenas da hidrelétrica (60%). Já a solar fotovoltaica integrada à rede já representa 5% (11 GW), que somada à solar distribuída passa a representar 17% de participação, deslocando a eólica.</p>
+        <p>No caso do Brasil, o sistema de geração apresenta uma alta participação de fontes renováveis de energia,
+            incluindo as tecnologias hidroelétricas, biomassa, eólica e solar, respondendo por mais de 85% do consumo
+            de eletricidade do país. Apresenta ainda predominância da hidroeletricidade, caracterizada por grandes
+            reservatórios com capacidade de regularização plurianual, dispostos em cascatas complexas. Por outro
+            lado, as fontes intermitentes têm experimentado um crescimento acelerado: em uma década, e.g., a
+            geração eólica cresceu 13 vezes, atingindo 27 GW de capacidade instalada, e tornou-se a 2ª fonte na matriz
+            (12%), atrás apenas da hidrelétrica (60%). Já a solar fotovoltaica integrada à rede já representa 5% (11
+            GW0, que somada à solar distribuída, passa a representar 17% de participação, deslocando a eólica.</p>
 
-        <p>Não obstante às vantagens das tecnologias eólica e solar, as suas intermitências, dada a natureza intrínseca da variabilidade horária e mensal dos ventos e da irradiação solar, constituem um desafio em termos de sua integração a sistemas de energia elétrica. Uma capacidade inadequada de prever as suas produções nos diversos horizontes de tomada de decisão afeta adversamente o trade-off entre segurança, custo e MC.</p>
+        <p>Não obstante às vantagens das tecnologias eólica e solar, as suas intermitências, dada a natureza
+            intrínseca da variabilidade horária e mensal dos ventos e da irradiação solar, constitui um desafio em termos
+            de sua integração a sistemas de energia elétrica. Uma capacidade inadequada de prever as suas
+            produções nos diversos horizontes de tomada de decisão afeta adversamente o trade-off entre segurança,
+            custo e MC.</p>
 
-        <p>O planejamento da expansão e da operação em sistemas hidrotérmicos tem sido realizado em muitos países, desagregando os problemas de planejamento nos horizontes de longo, médio e curto prazos, de acordo com características específicas de seus sistemas de energia. Atualmente, no sistema interligado nacional (SIN), a representação das fontes eólica e solar é realizada de forma simplificada nos planejamentos da expansão e da operação (médio/curto prazos) e programação da operação. Assim, é fundamental o desenvolvimento de metodologias e softwares para representar adequadamente as incertezas existentes das fontes eólica e solar e também de outras incertezas, como as afluências aos reservatórios das usinas hidrelétricas, do consumo de energia, etc., nas atividades citadas e em outras, por exemplo, análises de risco financeiro. Atenção também deve ser dada a outras políticas públicas na área de energia, como a transição energética no SIN e nos Sistemas Isolados, visando, no último caso, a integração ao SIN e a inserção de usinas híbridas, por exemplo, diesel/solar.</p>
+        <p>O planejamento da expansão e da operação em sistemas hidrotérmicos tem sido realizado, em muitos
+            países, desagregando os problemas de planejamento nos horizontes de longo, médio e curto prazos, de
+            acordo com características específicas de seus sistemas de energia. Atualmente, no sistema interligado
+            nacional (SIN), a representação das fontes eólica e solar é realizada de forma simplificada nos
+            planejamentos da expansão e da operação (médio/curto prazos), e programação da operação. Assim, é
+            fundamental o desenvolvimento de metodologias e softwares para representar adequadamente as
+            incertezas existentes das fontes eólica e solar, além de outras incertezas, como as afluências aos
+            reservatórios das usinas hidrelétricas, do consumo de energia etc., nas atividades citadas e em outras,
+            como em análises de risco financeiro de sistemas elétricos, contribuindo para subsidiar as decisões sobre
+            as políticas públicas em transição energética no SIN e nos Sistemas Isolados do Brasil.</p>
 
-        <p>Para isso, faz-se necessário o desenvolvimento de metodologias e softwares para aplicação em sistemas de energia renovável, considerando a modelagem das incertezas presentes e utilizando técnicas probabilísticas, estatísticas, de aprendizado estatístico, aprendizado de máquina, inteligência artificial, de simulação e de otimização estocástica, e que sejam ainda aplicáveis em sistemas de grande porte, como é o caso do sistema elétrico brasileiro.</p>
+        <p>Atento a esses desafios foi criado, no Departamento de Estatística do Instituto de Matemática e Estatística
+            da UERJ, o Laboratório de Simulação e Otimização Estocástica Aplicadas a Sistemas de Energia
+            Renovável, que vem desenvolvendo pesquisas nas áreas multidisciplinares citadas, com o apoio parcial de
+            projeto do CNPq/MCTI/FNDCT.</p>
 
-        <p>O projeto de pesquisa inicial para a constituição da Unidade de Desenvolvimento Tecnológico (UDT) Lab Solares é intitulado “Representação de incertezas de fontes eólicas no planejamento da operação de longo e médio prazos de sistemas hidro-térmico-eólicos interligados”, submetido e aprovado em uma chamada pública do CNPq/MCTI/FNDCT.</p>
+        <p>Como exemplo de pesquisas e desenvolvimentos de metodologias e software em curso, podem ser citados,
+            entre outros: previsão de produção de energia eólica e solar; geração de cenários sintéticos futuros de
+            energia eólica e solar, correlacionados com as vazões afluentes aos reservatórios das usinas hidrelétricas;
+            agregação espacial de regimes de ventos; cálculo de funções de transferência mensais entre velocidades
+            do vento e produção de energia eólica; representação da incerteza da energia eólica e solar em modelos
+            de otimização estocástica, como a programação dinâmica dual estocástica; elaboração de bases de dados
+            pareadas de velocidades do vento e produção de energia eólica; previsão de carga, análise de risco
+            financeiro de inserção de geração solar fotovoltaica em usinas termelétricas a diesel e consequente redução
+            de gases de efeito estufa.</p>
 
-        <p>A motivação para a criação e cadastramento da UDT Lab Solares foi baseada nos seguintes elementos: (i) submissão e aprovação de um projeto de pesquisa em resposta a uma chamada pública do CNPq/MCTI/FNDCT em assunto de relevância nacional e internacional; (ii) aderência das áreas de conhecimento requeridas às atividades do Instituto de Matemática (IME) e Estatística em geral e ao Departamento de Estatística em particular; (iii) capacitação e experiência da equipe de professores nas áreas de conhecimento multidisciplinar requeridas pelo escopo do objetivo e atividades da UDT; (iv) relevância e potencial de inovação reconhecidos pela aprovação do projeto de pesquisa pelo CNPq, com imediata aplicação após a conclusão do projeto, além de contribuição para o desenvolvimento do estado-da-arte na área de conhecimento; e (v) aderência às diretrizes da UERJ com relação ao incentivo ao desenvolvimento de atividades de pesquisa e inovação, complementando as de ensino e extensão.</p>
+        <p>Além do desenvolvimento de pesquisas e inovações, a UDT tem como objetivo adicional apoiar a formação
+            e a atração estudantes de graduação e pós-graduação da UERJ e de outras IES, além de apoiar docentes
+            nesta área multidisciplinar do conhecimento; também é importante que os resultados transcendam os muros
+            da UERJ, e dialoguem com sociedade como um todo. Neste sentido, a equipe do Lab Solares participa do
+            Projeto de Extensão “Transição energética: vantagens e desafios técnicos das energias renováveis para o
+            equilíbrio entre custos, segurança e mudanças climáticas”.</p>
 
-        <p>Além do desenvolvimento de pesquisas e inovações, objetiva-se também formar e atrair estudantes de graduação e pós-graduação da UERJ e de outras IES, e apoiar docentes nesta área multidisciplinar do conhecimento; além da necessidade de que os resultados transcendam os muros da UERJ e dialoguem com a sociedade como um todo. Neste sentido, a equipe do Lab Solares também participa do Projeto de Extensão “Transição energética: vantagens e desafios técnicos das energias renováveis para o equilíbrio entre custos, segurança e mudanças climáticas”.</p>
     </div>
 </body>
 </html>
