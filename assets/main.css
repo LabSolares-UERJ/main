@@ -175,21 +175,21 @@ ul li a i {
 }
 
 .team-member {
-    margin-bottom: 30px; /* Espaço entre os membros da equipe */
+    margin-bottom: 20px; /* Espaço entre os membros da equipe. Antes: 30 */
     padding: 15px; /* Espaçamento interno */
-    border-left: 4px solid #007acc; /* Borda colorida à esquerda */
+    border-left: 2px solid #007acc; /* Borda colorida à esquerda. Antes: 4 */
     background-color: #f9f9f9; /* Fundo claro para destaque */
-    border-radius: 5px; /* Bordas arredondadas */
+    border-radius: 2px; /* Bordas arredondadas. Antes: 5 */
 }
 
 .team-member h3 {
     margin-top: 0; /* Remove o espaçamento superior do título */
     color: #333; /* Cor do título */
-    font-size: 1.5em; /* Tamanho da fonte do título */
+    font-size: 1em; /* Tamanho da fonte do título. Antes: 1.5 */
 }
 
 .team-member p {
-    margin: 5px 0; /* Margem entre os parágrafos */
+    margin: 2px 0; /* Margem entre os parágrafos. Antes: 5*/
     color: #666; /* Cor do texto */
 }
 
