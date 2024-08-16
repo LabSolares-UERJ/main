@@ -184,6 +184,7 @@ ul li a i {
 
 .team-member h3 {
     margin-top: 0; /* Remove o espaçamento superior do título */
+    margin-bottom: 0; /* Adicionado */
     color: #333; /* Cor do título */
     font-size: 1.1em; /* Tamanho da fonte do título. Antes: 1.5 */
 }
