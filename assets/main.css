@@ -202,3 +202,11 @@ ul li a i {
 .team-member a:hover {
     text-decoration: underline; /* Sublinhado ao passar o mouse */
 }
+
+.content-emPoucasPalavras {
+    margin-bottom: 0;
+}
+
+.content-emPoucasPalavras p:last-child {
+    margin-bottom: 0; /* Remove o espaço inferior do último parágrafo */
+}
