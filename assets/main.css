@@ -214,7 +214,7 @@ ul li a i {
 html, body { height: 100%; }
 
 body {
-  background-image: url('assets/images/background_blend.png'); /* sem "/" inicial */
+  background-image: url('main/assets/images/background_blend.jpg'); /* sem "/" inicial */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
