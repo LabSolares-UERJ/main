@@ -210,14 +210,22 @@ ul li a i {
     margin-bottom: 0;
 }
 
-/* ===== Fundo da página ===== */
+/* ===== Fundo da página (imagem blend) ===== */
+html, body { height: 100%; }
+
 body {
-    background-image: url('/assets/images/background_blend.jpg'); /* ajuste o caminho se necessário */
-    background-size: cover;        /* cobre toda a tela */
-    background-repeat: no-repeat;  /* evita repetição */
-    background-attachment: fixed;  /* mantém fixo ao rolar */
-    background-position: center;   /* centraliza a imagem */
+  background-image: url('assets/images/background_blend.jpg'); /* sem "/" inicial */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
+
+/* Deixe os painéis translúcidos para o fundo aparecer discretamente */
+main, aside {
+  background-color: rgba(255,255,255,0.90);
+}
+
 
 
 
