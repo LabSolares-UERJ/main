@@ -211,13 +211,27 @@ ul li a i {
 }
 
 /* ===== Fundo da página (imagem blend) ===== */
-html, body { height: 100%; }
 
+/* Garante o contexto de posicionamento e remove o fundo do body */
 body {
-  background-image: url('/main/assets/images/background_blend.jpg'); /* sem "/" inicial */
+  position: relative;
+  background: none; /* Remove qualquer fundo direto do body */
+}
+
+/* Cria um pseudo-elemento para ser a camada de fundo */
+body::before {
+  content: ""; /* Essencial para o pseudo-elemento ser gerado */
+  position: fixed; /* Fixo para não rolar com a página */
+  top: 0;
+  left: 0;
+  width: 100vw; /* 100% da largura da viewport */
+  height: 100vh; /* 100% da altura da viewport */
+  z-index: -1; /* MÁGICA: Joga essa camada para trás de todo o conteúdo */
+
+  /* Suas propriedades de imagem de fundo vão aqui */
+  background-image: url('/main/assets/images/background_blend.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
 }
 
