@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - {{ site.title }}</title>
@@ -26,10 +27,7 @@
             {{ content }}
         </main>
     </div>
-</body>
-
-<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-    
+</body>   
 </html>
 <script>
     // Função para adicionar a classe 'active' ao link atual
